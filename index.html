@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, scissor & paper</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+    <div class="count">
+        <p>Win: <span id="countWin">0</span></p>
+        <p>Loss: <span id="countLoss">0</span></p>
+        <p>Tie: <span id="countTie">0</span></p>
+    </div>
+
+    <div>
+        <h2>YOU</h2>
+    </div>
+    <div class="container">  
+        <div class="rock circle" id="rock">
+            <i class="far fa-hand-rock"></i>
+        </div>
+        <div class="paper circle" id="paper">
+            <i class="far fa-hand-paper"></i>
+        </div>
+        <div class="scissor circle" id="scissor">
+            <i class="far fa-hand-scissors"></i>
+        </div>
+    </div>
+
+    <h2>COMPUTER</h2>
+    <div class="container">
+        <div class="rock circle-bot" id="rock-computer">
+            <i class="far fa-hand-rock"></i>
+        </div>
+        <div class="paper circle-bot" id="paper-computer">
+            <i class="far fa-hand-paper"></i>
+        </div>
+        <div class="scissor circle-bot" id="scissor-computer">
+            <i class="far fa-hand-scissors"></i>
+        </div>
+    </div>
+
+    <div class="play" id="play">
+        <button id="btn-start" class="btn">Play!!</button>
+    </div>
+
+
+    <div class="win" id="win">
+        <p class="status">WIN <i class="fal fa-smile-wink"></i></p>
+    </div>
+
+    <div class="loss" id="loss">
+        <p class="status">LOSS <i class="fal fa-grin-tongue-wink"></i></p>
+    </div>
+
+    <div class="tie" id="tie">
+        <p class="status">TIE <i class="fal fa-grin-tongue-wink"></i></p>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
